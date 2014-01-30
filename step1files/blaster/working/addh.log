@@ -1,0 +1,139 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "rec.pdb"
+Database of HETATM connections: "reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Building or keeping OH & SH Hydrogens.
+Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
+*WARNING*: Residues ILE 281  and PRO 289  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ILE 281  and PRO 289  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PHE 512  and PHE 539  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PHE 512  and PHE 539  in chain  A appear unbonded 
+            and will be treated as a chain break
+ Singles(size 82): A  83 TYR OH  : A  88 SER OG  : A 102 TYR OH  : A 109 THR OG1 
+  : A 111 SER OG  : A 119 TYR OH  : A 131 THR OG1 : A 136 THR OG1 : A 140 MET CE  
+  : A 143 SER OG  : A 145 SER OG  : A 167 TYR OH  : A 168 SER OG  : A 180 CYS SG A
+  : A 199 SER OG  : A 205 SER OG  : A 215 SER OG  : A 217 CYS SG  : A 220 MET CE  
+  : A 223 MET CE  : A 225 TYR OH  : A 230 THR OG1 : A 234 TYR OH  : A 238 TYR OH  
+  : A 246 SER OG  : A 247 SER OG  : A 250 THR OG1 : A 253 THR OG1 : A 255 THR OG1 
+  : A 275 THR OG1 : A 277 MET CE  : A 278 MET CE  : A 292 THR OG1 : A 302 TYR OH  
+  : A 307 THR OG1 : A 313 MET CE  : A 323 TYR OH  : A 337 THR OG1 : A 343 THR OG1 
+  : A 344 SER OG  : A 345 CYS SG  : A 348 TYR OH  : A 351 TYR OH  : A 354 TYR OH  
+  : A 361 SER OG  : A 366 SER OG  : A 370 TYR OH  : A 375 THR OG1 : A 376 TYR OH  
+  : A 379 SER OG  : A 380 TYR OH  : A 395 THR OG1 : A 398 TYR OH  : A 402 SER OG  
+  : A 411 THR OG1 : A 413 THR OG1 : A 421 SER OG  : A 424 THR OG1 : A 428 MET CE  
+  : A 444 THR OG1 : A 454 SER OG  : A 461 TYR OH  : A 475 MET CE  : A 476 SER OG  
+  : A 481 TYR OH  : A 484 THR OG1 : A 489 THR OG1 : A 494 MET CE  : A 497 CYS SG  
+  : A 505 TYR OH  : A 506 THR OG1 : A 540 CYS SG  : A 541 THR OG1 : A 542 SER OG  
+  : A 545 TYR OH  : A 550 THR OG1 : A 561 THR OG1 : A 562 MET CE  : A 565 THR OG1 
+  : A 569 SER OG  : A 578 THR OG1 : A 579 MET CE  
+ Set 1 (size 2): A 211 THR OG1 : A 181 TYR OH  
+ orientation 1: A  83 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A  88 SER OG  :   rot   67: bump=-0.549, HB=0.931, total=0.382
+ orientation 1: A 102 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 109 THR OG1 :   rot -170: bump=0.000, HB=0.026, total=0.026
+ orientation 1: A 111 SER OG  :   rot -179: bump=-5.435, HB=0.296, total=-5.139, BADBUMP
+ orientation 1: A 119 TYR OH  :   rot  180: bump=-0.138, HB=0.000, total=-0.138
+ orientation 1: A 131 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 136 THR OG1 :   rot  180: bump=-1.297, HB=0.000, total=-1.297
+ orientation 3: A 140 MET CE  :methyl  155: bump=-0.023, HB=0.000, total=-0.023
+ orientation 1: A 143 SER OG  :   rot  180: bump=-0.645, HB=0.000, total=-0.645
+ orientation 4: A 145 SER OG  :   rot  -61: bump=0.000, HB=1.101, total=1.101
+ orientation 1: A 167 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 168 SER OG  :   rot  180: bump=0.000, HB=0.002, total=0.002
+ orientation 2: A 180 CYS SG A:   rot   85: bump=0.000, HB=0.010, total=0.010
+ orientation 1: A 199 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 205 SER OG  :   rot   60: bump=-1.778, HB=0.000, total=-1.778
+ orientation 1: A 215 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 217 CYS SG  :   rot  -82: bump=0.000, HB=0.024, total=0.024
+ orientation 3: A 220 MET CE  :methyl  158: bump=-1.109, HB=0.000, total=-1.109
+ orientation 2: A 223 MET CE  :methyl -147: bump=-0.301, HB=0.000, total=-0.301
+ orientation 1: A 225 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: A 230 THR OG1 :   rot -159: bump=-1.941, HB=0.000, total=-1.941, BADBUMP
+ orientation 6: A 234 TYR OH  :   rot    3: bump=0.000, HB=0.499, total=0.499
+ orientation 2: A 238 TYR OH  :   rot  165: bump=-1.169, HB=0.000, total=-1.169
+ orientation 1: A 246 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 247 SER OG  :   rot  165: bump=-1.382, HB=1.703, total=0.321, BADBUMP
+ orientation 1: A 250 THR OG1 :   rot  130: bump=-0.013, HB=0.000, total=-0.013
+ orientation 1: A 253 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 255 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 275 THR OG1 :   rot  -92: bump=0.000, HB=0.889, total=0.889
+ orientation 1: A 277 MET CE  :methyl  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 278 MET CE  :methyl -154: bump=-0.358, HB=0.000, total=-0.358
+ orientation 1: A 292 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 302 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 307 THR OG1 :   rot   54: bump=-0.136, HB=0.089, total=-0.047
+ orientation 1: A 313 MET CE  :methyl -170: bump=-2.160, HB=0.000, total=-2.160, BADBUMP
+ orientation 4: A 323 TYR OH  :   rot  154: bump=-0.286, HB=1.298, total=1.012
+ orientation 4: A 337 THR OG1 :   rot   18: bump=-0.025, HB=1.200, total=1.175
+ orientation 1: A 343 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 344 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 345 CYS SG  :   rot  170: bump=-0.216, HB=0.000, total=-0.216
+ orientation 4: A 348 TYR OH  :   rot  130: bump=-0.010, HB=0.000, total=-0.010
+ orientation 1: A 351 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 354 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 361 SER OG  :   rot   75: bump=-1.585, HB=0.395, total=-1.190
+ orientation 3: A 366 SER OG  :   rot  -79: bump=0.000, HB=0.410, total=0.410
+ orientation 1: A 370 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 375 THR OG1 :   rot  180: bump=-0.695, HB=0.200, total=-0.495
+ orientation 1: A 376 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 379 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 9: A 380 TYR OH  :   rot  -27: bump=0.000, HB=1.017, total=1.017
+ orientation 7: A 395 THR OG1 :   rot   46: bump=-1.591, HB=1.150, total=-0.441
+ orientation 3: A 398 TYR OH  :   rot  150: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 402 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 411 THR OG1 :   rot  -43: bump=-2.114, HB=0.000, total=-2.114, BADBUMP
+ orientation 1: A 413 THR OG1 :   rot  180: bump=-0.164, HB=0.000, total=-0.164
+ orientation 1: A 421 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: A 424 THR OG1 :   rot -155: bump=-0.563, HB=0.912, total=0.349
+ orientation 3: A 428 MET CE  :methyl  149: bump=-2.304, HB=0.000, total=-2.304
+ orientation 1: A 444 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 454 SER OG  :   rot   28: bump=-0.006, HB=0.404, total=0.398
+ orientation 4: A 461 TYR OH  :   rot   30: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: A 475 MET CE  :methyl  170: bump=-1.751, HB=0.000, total=-1.751
+ orientation 2: A 476 SER OG  :   rot   80: bump=0.000, HB=0.500, total=0.500
+ orientation 1: A 481 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 484 THR OG1 :   rot  180: bump=-2.965, HB=0.000, total=-2.965, BADBUMP
+ orientation 6: A 489 THR OG1 :   rot  -87: bump=-0.471, HB=1.537, total=1.066
+ orientation 3: A 494 MET CE  :methyl  156: bump=-7.726, HB=0.000, total=-7.726, BADBUMP
+ orientation 1: A 497 CYS SG  :   rot  180: bump=-1.981, HB=0.000, total=-1.981
+ orientation 1: A 505 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 506 THR OG1 :   rot  180: bump=0.000, HB=0.022, total=0.022
+ orientation 1: A 540 CYS SG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 541 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 4: A 542 SER OG  :   rot  -42: bump=-1.890, HB=1.668, total=-0.222, BADBUMP
+ orientation 1: A 545 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 6: A 550 THR OG1 :   rot  -43: bump=-0.804, HB=0.797, total=-0.007
+ orientation 2: A 561 THR OG1 :   rot   75: bump=0.000, HB=0.426, total=0.426
+ orientation 3: A 562 MET CE  :methyl  141: bump=-0.218, HB=0.000, total=-0.218
+ orientation 4: A 565 THR OG1 :   rot  -91: bump=-0.070, HB=1.272, total=1.202
+ orientation 1: A 569 SER OG  :   rot  180: bump=-0.095, HB=0.000, total=-0.095
+ orientation 1: A 578 THR OG1 :   rot -170: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 579 MET CE  :methyl -152: bump=-2.713, HB=0.000, total=-2.713
+
+ Processing set: A 211 THR OG1 [4]: A 181 TYR OH  [12]
+ permutations: 48
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 1
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: 1.660
+> : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       > : 1.660       
+ Optimal score following high resolution, local optimization: 1.660
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 3807 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 83 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
