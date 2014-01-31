@@ -22,8 +22,8 @@ for input in inputFiles:
     for lineCount, line in enumerate(db2file):
       if 0 == len(recordLines):
         recordLines.append(line)
-      elif line.find('M     ZINC') != -1: #this is bad, just dump it.
-        position = line.find('M     ZINC')
+      elif line.find('M    ') != -1: #this is bad, just dump it.
+        position = line.find('M    ')
         recordLines = [line[position:]] #dump everything before this, start over
         print "broken file", input, " repaired at line", lineCount
       elif line[0] == 'E': #end of one record
