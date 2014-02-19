@@ -6,6 +6,7 @@
 #find them and remove them
 
 import string, sys, os, shutil, gzip #i need these, i need them all
+import tempfile
 
 if len(sys.argv) > 1:
   inputFiles = sys.argv[1:]
@@ -16,7 +17,7 @@ for input in inputFiles:
   print "running", input, " now"
   try:
     db2file = gzip.open(input, 'rb')
-    outFileName = 'temp.donotusethisnameeverwhowoulddotha2t.db2.gz'
+    outFileName = tempfile.NamedTemporaryFile(dir='.', delete=False).name
     outFile = gzip.open(outFileName, 'wb', 9)
     recordLines = []
     for lineCount, line in enumerate(db2file):
