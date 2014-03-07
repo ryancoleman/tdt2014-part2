@@ -10,6 +10,7 @@ Aromatic rings in amino acids accept hydrogen bonds.
 Building His ring NH Hydrogens.
 Building or keeping OH & SH Hydrogens.
 Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
 *WARNING*: Residues ILE 281  and PRO 289  in chain  A appear unbonded 
             and will be treated as a chain break
 *WARNING*: Residues ILE 281  and PRO 289  in chain  A appear unbonded 
@@ -20,7 +21,7 @@ Processing Met methyls.
             and will be treated as a chain break
  Singles(size 82): A  83 TYR OH  : A  88 SER OG  : A 102 TYR OH  : A 109 THR OG1 
   : A 111 SER OG  : A 119 TYR OH  : A 131 THR OG1 : A 136 THR OG1 : A 140 MET CE  
-  : A 143 SER OG  : A 145 SER OG  : A 167 TYR OH  : A 168 SER OG  : A 180 CYS SG  
+  : A 143 SER OG  : A 145 SER OG  : A 167 TYR OH  : A 168 SER OG  : A 180 CYS SG A
   : A 199 SER OG  : A 205 SER OG  : A 215 SER OG  : A 217 CYS SG  : A 220 MET CE  
   : A 223 MET CE  : A 225 TYR OH  : A 230 THR OG1 : A 234 TYR OH  : A 238 TYR OH  
   : A 246 SER OG  : A 247 SER OG  : A 250 THR OG1 : A 253 THR OG1 : A 255 THR OG1 
@@ -49,7 +50,7 @@ Processing Met methyls.
  orientation 4: A 145 SER OG  :   rot  -61: bump=0.000, HB=1.101, total=1.101
  orientation 1: A 167 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
  orientation 1: A 168 SER OG  :   rot  180: bump=0.000, HB=0.002, total=0.002
- orientation 2: A 180 CYS SG  :   rot   85: bump=0.000, HB=0.010, total=0.010
+ orientation 2: A 180 CYS SG A:   rot   85: bump=0.000, HB=0.010, total=0.010
  orientation 1: A 199 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
  orientation 1: A 205 SER OG  :   rot   60: bump=-1.778, HB=0.000, total=-1.778
  orientation 1: A 215 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000

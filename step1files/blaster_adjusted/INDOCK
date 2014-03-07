@@ -9,14 +9,14 @@ output_file_prefix            test.
 #                             MATCHING
 match_method                  2
 distance_tolerance            0.05
-match_goal                    5000
+match_goal                    20000
 distance_step                 0.05
 distance_maximum              0.5
 timeout                       10.0
 nodes_maximum                 4
 nodes_minimum                 4
-bump_maximum                  10.0
-bump_rigid                    10.0
+bump_maximum                  50.0
+bump_rigid                    50.0
 #####################################################
 #                             COLORING
 chemical_matching             no
@@ -26,7 +26,6 @@ case_sensitive                no
 atom_minimum                  4
 atom_maximum                  100
 number_save                   1
-number_write                  1
 molecules_maximum            100000
 check_clashes                 yes
 do_premax                     no
@@ -38,12 +37,11 @@ vdw_maximum                   1.0e10
 electrostatic_scale           1.0
 vdw_scale                     1.0
 internal_scale                0.0
-per_atom_scores               no
 #####################################################
 # INPUT FILES / THINGS THAT CHANGE
 receptor_sphere_file          ../dockfiles/matching_spheres.sph
 vdw_parameter_file            ../dockfiles/vdw.parms.amb.mindock
-delphi_nsize                  51
+delphi_nsize                  55
 flexible_receptor             no
 total_receptors               1
 ############## grids/data for one receptor

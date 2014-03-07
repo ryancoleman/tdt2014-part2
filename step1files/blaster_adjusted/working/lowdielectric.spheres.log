@@ -1,21 +1,21 @@
 There are 34 ligand heavy atoms
 Ligand center of coords (x y z): 6.8285 -8.4305 94.3234411764706
 useligsph flag does not exist.
-Starting number of spheres from all_spheres.sph cluster 0: 1389
+Starting number of spheres from all_spheres.sph cluster 0: 1394
 FINISHED READING IN FILE all_spheres.sph CLUSTER 0 
-Number of sphere points after cutting off spheres too far from center of ligand (12 angstroms): 1097
-Number of spheres after removing too far (>7 angstroms) and too close to receptor (<1.2 angstroms): 1089
-Number of spheres polar: 257, nonpolar: 523, out of current total: 1089
-Extents of grid to search are X1 X2 Y1 Y2 Z1 Z2: -5.16644 18.73163 -20.39850 3.53259 82.45000 106.29660
-Number of spheres after removing spheres too close to each other (approximately <1.5 angstroms): 393
-Number of spheres after second pass removing spheres absolutely <0.8 from each other: 305
+Number of sphere points after cutting off spheres too far from center of ligand (12 angstroms): 1098
+Number of spheres after removing too far (>7 angstroms) and too close to receptor (<1.2 angstroms): 1092
+Number of spheres polar: 259, nonpolar: 522, out of current total: 1092
+Extents of grid to search are X1 X2 Y1 Y2 Z1 Z2: -5.16644 18.73163 -20.39850 3.54480 82.45000 106.29660
+Number of spheres after removing spheres too close to each other (approximately <1.5 angstroms): 394
+Number of spheres after second pass removing spheres absolutely <0.8 from each other: 304
 No crystallographic spheres present, so determining sphere nearest center of ligand (x y z): 6.8285 -8.4305 94.3234411764706
-Center point: 276 xyz: 6.40318 -8.51856 94.43900
-After continuity checking, number of spheres is: 277
-Spheres center of coords (x y z): 6.50639256317689 -8.4453776534296 91.0669113718412
+Center point: 274 xyz: 6.40318 -8.51856 94.43900
+After continuity checking, number of spheres is: 275
+Spheres center of coords (x y z): 6.61515189090908 -8.39165749090909 91.0913114909091
 Not crystallographic ligand, so keeping spheres closest to center of receptor, center of ligand, and center of spheres
 Receptor center of coords (x y z): 12.4097348208539 -5.90612229135379 108.08911285132
-Average weighted-distance for final elimination is: 35.6894708795391
+Average weighted-distance for final elimination is: 35.6093576883112
 Final number of output spheres is: 120
 Number of polar spheres: 37
 Number of nonpolar spheres: 44

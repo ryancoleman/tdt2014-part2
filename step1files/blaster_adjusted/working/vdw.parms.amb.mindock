@@ -23,8 +23,7 @@
   17       3885.92        66.31    Br
   18       6817.37        92.86    I
   19        235.24        10.15    Na+ (unhydrated), K+
-  20         51.92         5.73    Mg++, Li+, Al+++, M++ (except Ca++), 
-! 20 is also Ni & Cu (apparently)
+  20         51.92         5.73    Mg++, Li+, Al+++, M++ (except Ca++)
   21        339.55        14.65    Ca++
   22       1971.47        37.63    Cl- (unhydrated)
   23        762.07        24.38    Lennard-Jones water particle

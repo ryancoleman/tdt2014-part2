@@ -1,6 +1,6 @@
  density type = X
  reading  rec.ms                                                                             type   R
- # of atoms =   4661   # of surf pts =  12976
+ # of atoms =   4661   # of surf pts =  12977
  finding spheres for   rec.ms                                                                          
  dotlim =     0.000
  radmax =    5.000
