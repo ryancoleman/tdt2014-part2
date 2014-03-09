@@ -4,7 +4,7 @@ import sys
 import string
 
 idColumn = 2
-energyColumn = 18
+energyColumn = 20
 
 if len(sys.argv) < 3:
   print "Usage: make_tcams_output.py tcams.smi extract_all.sort.uniq.txt"
