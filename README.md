@@ -10,5 +10,7 @@ The goal of this project is to help find anti-malaria compounds in an open scien
 More information about the competition here: 
 http://www.tdtproject.org/challenge-2---new-anti-malaria-compounds.html
 
-Please see tutorial at: 
-<coming soon>
+Please see tutorial at: https://github.com/ryancoleman/tdt2014-part2/blob/master/submission/tutorial.pdf
+
+http://tools.bkslab.org/~rgc/tdt2014/
+
