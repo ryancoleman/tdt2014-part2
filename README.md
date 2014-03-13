@@ -12,5 +12,5 @@ http://www.tdtproject.org/challenge-2---new-anti-malaria-compounds.html
 
 Please see tutorial at: https://github.com/ryancoleman/tdt2014-part2/blob/master/submission/tutorial.pdf
 
-http://tools.bkslab.org/~rgc/tdt2014/
+http://aaaa.docking.org/~rgc/tdt2014/
 
