@@ -14,3 +14,4 @@ Please see tutorial at: https://github.com/ryancoleman/tdt2014-part2/raw/master/
 
 http://aaaa.docking.org/~rgc/tdt2014/
 
+Looking for Part 3? https://github.com/joelkarpiak/tdt_part3
