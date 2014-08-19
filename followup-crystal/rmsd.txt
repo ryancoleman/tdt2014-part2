@@ -1,0 +1,3 @@
+~/College/Research/blur_source/Source/rgc_src/mol2rmsd.py  4PG3-ligand.mol2 pfkrs1-cladosporin-adj-align-ligand.mol2 
+mol# RMSD-in-angstroms
+1 2.37886758261
